@@ -49,7 +49,7 @@ if (workbox.navigationPreload.isSupported()) {
 }
 
 registerRoute(
-  new RegExp('/*'),
+  new RegExp('*'),
   new CacheFirst({
     cacheName: PRECACHE,
     plugins: [
@@ -179,7 +179,7 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('pwa-store').then(function(cache) {
      return cache.addAll([
-       '/android-icon-192x192-dunplab-manifest-48026.png'
+       'icon-192x192.png'
      ]);
    })
  );
