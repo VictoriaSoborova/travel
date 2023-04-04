@@ -1,0 +1,16 @@
+{
+    "name": "Touroperator Travel",
+    "short_name": "travel",
+    "description": "About travel around the world!",
+    "icons": [
+        {
+            "src": "icon.png",
+            "size": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://victoriasoborova.github.io/travel-git/index.html",
+    "display": "fullscreen",
+    "theme_color": "#ffffff",
+    "background_color": "#deb887"
+}
