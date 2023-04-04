@@ -4,13 +4,26 @@
     "description": "About travel around the world!",
     "icons": [
         {
-            "src": "icon.png",
-            "size": "32x32",
-            "type": "image/png"
+          "src": "icon-32.png",
+          "type": "image/png",
+          "sizes": "32x32"
+        },
+        {
+          "src": "icon-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "icon-512.png",
+          "type": "image/png",
+          "sizes": "512x512"
         }
     ],
-    "start_url": "https://victoriasoborova.github.io/travel-git/index.html",
+    "start_url": "https://victoriasoborova.github.io/travel-git",
     "display": "fullscreen",
     "theme_color": "#ffffff",
-    "background_color": "#deb887"
+    "background_color": "#deb887",
+    "prefer_related_applications": true,
+    "orientation": "portrait",
+
 }
