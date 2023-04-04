@@ -23,7 +23,6 @@
     "display": "fullscreen",
     "theme_color": "#ffffff",
     "background_color": "#deb887",
-    "prefer_related_applications": true,
-    "orientation": "portrait",
-
+    "prefer_related_applications": false,
+    "orientation": "portrait"
 }
