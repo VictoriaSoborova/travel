@@ -16,3 +16,7 @@ p{
     text-align: justify;
     font-size: 1em;
 }
+img{
+    width: 100%;
+    height: auto;   
+}
