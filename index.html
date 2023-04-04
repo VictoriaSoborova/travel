@@ -10,19 +10,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="shortcut icon" href="icon.png">
-    <script>
-if (‘serviceWorker’ in navigator) {
-window.addEventListener(‘load’, function() {
-navigator.serviceWorker.register(‘sw.js’).then(
-function(registration) {
-// Registration was successful
-console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
-function(err) {
-// Registration failed
-console.log(‘ServiceWorker registration failed: ‘, err);
-});
-});
-}
+<script>
+ if ('serviceWorker' in navigator) {
+ navigator.serviceWorker
+ .register('/sw.js')
+ .then(function (reg) {
+ console.log('Registration succeeded. Scope is ' + reg.scope);
+ })
+ .catch(function (error) {
+ console.error('Trouble with sw: ', error);
+ });
+ }
 </script>
 
 </head>
