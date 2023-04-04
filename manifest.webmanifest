@@ -1,11 +1,10 @@
 {
+    "name": "Touroperator Travel",
+    "short_name": "Travel",
     "theme_color": "#deb887",
     "background_color": "#ffffff",
     "display": "fullscreen",
-    "scope": "",
-    "start_url": "https://victoriasoborova.github.io/travel-git/",
-    "name": "Touroperator Travel",
-    "short_name": "Travel",
+    "start_url": "https://victoriasoborova.github.io/travel-git",
     "icons": [
         {
             "src": "icon-192x192.png",
