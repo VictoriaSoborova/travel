@@ -1,10 +1,16 @@
+html, body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 h1{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 20px 0;
     background-color: burlywood;
     color: #fff;
-    text-align: center;
     font-size: 3em;
     font-family: "Dancing Script";
     opacity: 0.5;
@@ -18,5 +24,6 @@ p{
 }
 img{
     width: 100%;
-    height: auto;   
+    height: auto;
+    max-width: 1000px;
 }
